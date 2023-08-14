@@ -1,0 +1,1 @@
+python NER_main.py --data_dir ./input/data/ner_data --vob_file ./input/config/bert-base-chinese/vocab.txt  --model_config  ./input/config/bert-base-chinese/config.json  --output  ./output --max_seq_length 128 --do_train --train_batch_size 64 --eval_batch_size 80 --gradient_accumulation_steps 4 --num_train_epochs 15
